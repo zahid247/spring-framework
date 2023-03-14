@@ -1,10 +1,11 @@
 package com.cydeo.repository;
 
-import com.cydeo.model.Hours;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class OverTime implements Hours {
+@Qualifier("OTH")
+public class OverTime implements HoursRepository {
 
     @Override
     public int getHours() {

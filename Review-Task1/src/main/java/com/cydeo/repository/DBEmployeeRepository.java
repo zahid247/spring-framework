@@ -1,7 +1,6 @@
 package com.cydeo.repository;
 
 import com.cydeo.model.Employee;
-import com.cydeo.model.EmployeeRepository;
 import org.springframework.stereotype.Component;
 
 @Component
