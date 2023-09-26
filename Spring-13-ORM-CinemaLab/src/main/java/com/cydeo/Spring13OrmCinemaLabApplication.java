@@ -19,7 +19,6 @@ public class Spring13OrmCinemaLabApplication {
     public MigrateResult migrateResult(DataSource dataSource){
         return Flyway.configure().baselineOnMigrate(true).dataSource(dataSource).load().migrate();
     }
-    //first entities need to be created, then migration of flyway starts
-    //Testing if i can push back to GitHub
+    //first entities need to be created, then migration of flyway start
 
 }
