@@ -28,7 +28,7 @@ public class Account extends BaseEntity {
 
     @OneToOne(mappedBy = "account")
     private User user;
-
+//this is just a test, can delete after verification
     @Override
     public String toString() {
         return "Account{" +
